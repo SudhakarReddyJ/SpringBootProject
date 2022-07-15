@@ -22,6 +22,7 @@ public class UserRegController {
 	private UserRegRepository userRegRepository;
 	//get user ingormation
 	
+
 	@GetMapping("/userinformation")
 	public List<UserReg> getAllUserInformation(){
 		System.out.println("am user get infomratin ");
