@@ -17,7 +17,6 @@ import com.spring.project.repository.UserRegRepository;
 @RequestMapping("api/vi/s")
 public class UserRegController {
 	
-	
 	@Autowired
 	private UserRegRepository userRegRepository;
 	//get user ingormation
